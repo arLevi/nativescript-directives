@@ -1,11 +1,11 @@
 # nativescript-directives
 A personal list of directives commonly used in NativeScript applications
 
-# Include in your project
-We import a single module for all directives
-Directives that you don't want - just remove from your project after cloning
+# Install all directives
+We import a single module for all directives in a file called `directives.module.ts`.
+Directives that you don't want - just remove from this file after cloning in your project.
 
-### Project file: app.module.ts
+### File: app.module.ts
 Add this at the top of all includes
 ```
 import { DirectivesModule } from './directives/directives.module';
