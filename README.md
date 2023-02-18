@@ -24,5 +24,19 @@ imports: [
 ### Hide ActionBar
 To hide the action bar just place `hideActionBar` directive in the element that wrap the entire page.
 ```
+# In your somepage1.component.html:
 <StackLayout hideActionBar class="page">
 ```
+
+### FontAwesome DuoTone
+Helps us to control and create DuoTones in NativeScript.
+As they have 2 layers of Label, and we want to control their colors not only the icon.
+This is based on issue found in: https://github.com/NativeScript/NativeScript/issues/8162
+
+In your somepage1.component.html:
+```
+<!-- Acorn -->
+<Label col="1" text="&#xf6ae;" labelDuoTone class="larger fad c-forest"></Label>
+<Label col="1" text="&#x10f6ae;" labelDuoTone class="larger fad c-blue fad-op"></Label>
+```
+

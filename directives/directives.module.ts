@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
-import { DuoToneDirective } from './duotone.directive';
+
+import { DuoToneDirective       } from './fontawesome_duotone.ts';
 import { HideActionBarDirective } from '../directives/actionbar.hide.directive';
 
 /*
